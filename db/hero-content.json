@@ -3,5 +3,19 @@
     "heroImage": "https://source.unsplash.com/uDSMTV06s4U",
     "heroHeading": "Impress.",
     "heroText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis venenatis tempus elit, nec semper augue pulvinar eu. Mauris sed convallis mauris. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur imperdiet sollicitudin elementum. Nulla vulputate ac magna eget tincidunt."
-  }
+  },
+  "featuredItems": [
+    {
+      "name": "Sporty Elegant",
+      "imageUrl": "https://source.unsplash.com/fy-JGSH-3N0"
+    },
+    {
+      "name": "Street Cred",
+      "imageUrl": "https://source.unsplash.com/e-Ga24sP0_s"
+    },
+    {
+      "name": "Summer Vibes",
+      "imageUrl": "https://source.unsplash.com/uuBwaKIc9Kg"
+    }
+  ]
 }
