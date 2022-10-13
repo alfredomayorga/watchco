@@ -5,6 +5,7 @@ import type { LayoutProps } from '../../typings/common.interfaces'
 import {
   Container,
   Divider,
+  Box,
 } from '@chakra-ui/react'
 
 function Layout({ children }: LayoutProps) {
@@ -15,12 +16,18 @@ function Layout({ children }: LayoutProps) {
       </Container>
 
       <Divider />
-      <Container maxW="container.xl">
+      <Container
+        maxW="container.xl"
+        minH={'container.sm'}
+      >
         {children}
       </Container>
-      <Container maxW="container.xl">
+      <Box
+        maxW="full"
+        bg={'gray.900'}
+      >
         <Footer />
-      </Container>
+      </Box>
     </>
   )
 }
