@@ -12,6 +12,9 @@ describe('Test layout', () => {
       'exist'
     )
   })
+  it('should have a footter', () => {
+    cy.getByData('content-footer').should('exist')
+  })
   it('has the company logo', () => {
     cy.getByData('company-logo').should('exist')
   })
