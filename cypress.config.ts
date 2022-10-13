@@ -7,6 +7,7 @@ export default defineConfig({
     },
     video: false,
     screenshotsFolder: false,
+    baseUrl: 'http://localhost:3000',
   },
 
   component: {
