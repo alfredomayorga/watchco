@@ -5,6 +5,7 @@ import {
 } from '@chakra-ui/react'
 import CompanyLogo from '../shared/CompanyLogo/CompanyLogo'
 import UserAvatar from '../shared/UserAvatar/UserAvatar'
+import Navigation from '../ui/navigation/Navigation'
 function Topbar() {
   return (
     <Flex
@@ -17,6 +18,7 @@ function Topbar() {
       </Center>
       <Spacer />
       <Center>
+        <Navigation />
         <UserAvatar />
       </Center>
     </Flex>
