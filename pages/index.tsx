@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
-import styles from '../styles/Home.module.css'
+import Content from '../src/components/layout/Content'
 
 const Home: NextPage = () => {
   return (
-    <div className={styles.container}>
-      Create your app
-    </div>
+    <Content>
+      <h1>Watch Co.</h1>
+    </Content>
   )
 }
 
