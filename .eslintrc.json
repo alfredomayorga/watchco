@@ -5,6 +5,7 @@
     "eslint:recommended",
     "fbjs"
   ],
+  "parser": "@typescript-eslint/parser",
   "globals": {
     "React": "readonly",
     "JSX": true
