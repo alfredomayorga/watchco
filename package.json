@@ -18,11 +18,15 @@
     "prepare": "npx husky install"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.3.5",
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
     "cross-env": "^7.0.3",
     "cypress": "^10.10.0",
     "eslint-config-fbjs": "^4.0.0",
+    "framer-motion": "^7.5.3",
     "husky": "^8.0.1",
     "next": "12.3.1",
     "react": "18.2.0",
