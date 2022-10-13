@@ -1,0 +1,50 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals",
+    "eslint:recommended",
+    "fbjs"
+  ],
+  "globals": {
+    "React": "readonly"
+  },
+  "settings": {
+    "react": {
+      // Tells eslint-plugin-react to automatically detect the version of React to use.
+      "version": "detect"
+    },
+    // Tells eslint how to resolve imports
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".ts",
+          ".tsx"
+        ]
+      }
+    }
+  },
+  "rules": {
+    "no-unused-vars": [
+      1,
+      {
+        "args": "after-used",
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "space-before-blocks": "off",
+    "quotes": [
+      "error",
+      "single",
+      { "allowTemplateLiterals": true }
+    ],
+    "semi": "off",
+    "no-extra-semi": "off",
+    "max-len": ["error", { "code": 50 }],
+    "indent": ["error", 2],
+    "react/react-in-jsx-scope": "off",
+    "comma-dangle": "off"
+  }
+}
