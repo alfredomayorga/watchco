@@ -9,3 +9,8 @@ export type HeroContent = {
 export type HomepageContent = {
   heroContent: HeroContent
 }
+
+export type FeaturedItemType = {
+  name: string
+  imageUrl: string
+}

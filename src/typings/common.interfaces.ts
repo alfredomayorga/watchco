@@ -1,5 +1,7 @@
 /* eslint-disable */
 
+import { FeaturedItem } from './common.types'
+
 export interface LayoutProps {
   children: JSX.Element
 }
@@ -12,4 +14,8 @@ export interface HeroImageProps {
 export interface HeroTextProps {
   heading: string
   content: string
+}
+
+export interface FeaturedSectionProps {
+  featuredItems: FeaturedItem[]
 }
