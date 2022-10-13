@@ -9,13 +9,13 @@ describe('Home Page', () => {
   it('shows the text intro', () => {
     cy.getByData('hero-text').should('exist')
   })
-  it('should have a features section', () => {
+  it('should have a featured section', () => {
     cy.getByData('featured-section').should(
       'exist'
     )
   })
   it('needs to have 3 featured watches', () => {
-    cy.getByData('feature-section')
+    cy.getByData('featured-section')
       .children()
       .should('have.length', 3)
   })
