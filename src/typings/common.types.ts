@@ -19,3 +19,10 @@ export type CategorySectionType = {
   name: string
   imageUrl: string
 }
+
+export type WatchBoxType = {
+  id: number
+  name: string
+  price: number
+  imageUrl: string
+}
