@@ -1,0 +1,40 @@
+{
+  "watchBoxes": [
+    {
+      "id": 1,
+      "name": "Greenie",
+      "price": 99,
+      "imageUrl": "https://source.unsplash.com/xeOHwuszymk"
+    },
+    {
+      "id": 2,
+      "name": "Emerald",
+      "price": 199,
+      "imageUrl": "https://source.unsplash.com/alK2k8nA_Ek"
+    },
+    {
+      "id": 3,
+      "name": "Whitie",
+      "price": 99,
+      "imageUrl": "https://source.unsplash.com/oye3MhzuNG8"
+    },
+    {
+      "id": 4,
+      "name": "Jaded",
+      "price": 199,
+      "imageUrl": "https://source.unsplash.com/FvVO33NUWtU"
+    },
+    {
+      "id": 5,
+      "name": "Tiny",
+      "price": 199,
+      "imageUrl": "https://source.unsplash.com/IGbrG2jwu-s"
+    },
+    {
+      "id": 6,
+      "name": "Sporty",
+      "price": 199,
+      "imageUrl": "https://source.unsplash.com/zMCvl53UpWA"
+    }
+  ]
+}
