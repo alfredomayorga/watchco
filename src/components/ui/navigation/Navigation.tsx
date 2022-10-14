@@ -30,7 +30,7 @@ function Navigation() {
         </Link>
       </Box>
       <Box>
-        <Link href="/">
+        <Link href="/shop">
           <Text
             href="/shop"
             as="a"

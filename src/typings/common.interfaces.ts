@@ -4,6 +4,7 @@ import {
   CategorySectionType,
   FeaturedItemType,
   HeroContent,
+  WatchBoxType,
 } from './common.types'
 
 export interface LayoutProps {
@@ -33,3 +34,10 @@ export interface HomeProps {
   featuredItems: FeaturedItemType[]
   categorySection: CategorySectionType[]
 }
+
+export interface CategoryProps {
+  watchBoxes: WatchBoxType[]
+}
+
+export interface WatchBoxListProps
+  extends CategoryProps {}
