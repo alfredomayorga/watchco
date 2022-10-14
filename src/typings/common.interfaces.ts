@@ -31,5 +31,5 @@ export interface CategorySectionProps {
 export interface HomeProps {
   heroContent: HeroContent
   featuredItems: FeaturedItemType[]
-  categorySection: CategorySectionType
+  categorySection: CategorySectionType[]
 }
