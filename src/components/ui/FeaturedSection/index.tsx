@@ -18,8 +18,9 @@ function FeatureSection({
         mb={'48px'}
         data-cy="featured-section"
       >
-        {featuredItems.map((item) => (
+        {featuredItems.map((item, i) => (
           <FeaturedItem
+            key={i}
             name={item.name}
             imageUrl={item.imageUrl}
           />
