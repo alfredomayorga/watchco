@@ -1,0 +1,76 @@
+{
+  "watchBoxes": [
+    {
+      "id": 1,
+      "name": "Bluey",
+      "price": 99,
+      "imageUrl": "https://source.unsplash.com/ADvixEYm5qE"
+    },
+    {
+      "id": 2,
+      "name": "Hunter Race",
+      "price": 199,
+      "imageUrl": "https://source.unsplash.com/SX9IouL_qOg"
+    },
+    {
+      "id": 3,
+      "name": "Woody",
+      "price": 99,
+      "imageUrl": "https://source.unsplash.com/LWPPpkn6NEQ"
+    },
+    {
+      "id": 4,
+      "name": "Sporty Elegant",
+      "price": 199,
+      "imageUrl": "https://source.unsplash.com/fy-JGSH-3N0"
+    },
+    {
+      "id": 5,
+      "name": "Street Cred",
+      "price": 199,
+      "imageUrl": "https://source.unsplash.com/e-Ga24sP0_s"
+    },
+    {
+      "id": 6,
+      "name": "Unwanted Gold",
+      "price": 199,
+      "imageUrl": "https://source.unsplash.com/qbAl_t6ps2M"
+    },
+    {
+      "id": 7,
+      "name": "Dark Brown",
+      "price": 299,
+      "imageUrl": "https://source.unsplash.com/s6_bu5oFyHI"
+    },
+    {
+      "id": 8,
+      "name": "Beach Travel",
+      "price": 99,
+      "imageUrl": "https://source.unsplash.com/4eViEoxOzX0"
+    },
+    {
+      "id": 9,
+      "name": "James B",
+      "price": 399,
+      "imageUrl": "https://source.unsplash.com/Ymh6T-HAJEs"
+    },
+    {
+      "id": 10,
+      "name": "Last of The Elegants",
+      "price": 399,
+      "imageUrl": "https://source.unsplash.com/1NM7B6BlCu4"
+    },
+    {
+      "id": 11,
+      "name": "Metal Expression",
+      "price": 99,
+      "imageUrl": "https://source.unsplash.com/JteB-vegS8o"
+    },
+    {
+      "id": 12,
+      "name": "Noir",
+      "price": 299,
+      "imageUrl": "https://source.unsplash.com/lg_e1n6lonU"
+    }
+  ]
+}
