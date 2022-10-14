@@ -4,19 +4,16 @@ import type { NextPage } from 'next'
 import Content from '../src/components/layout/Content'
 // eslint-disable-next-line
 import HomeHeroSection from '@/components/ui/HomeHeroSection'
-import {
-  FeaturedItem,
-  HeroContent,
-} from 'src/typings/common.types'
 import FeatureSection from '@/components/ui/FeaturedSection'
-
-interface HomeProps {
-  heroContent: HeroContent
-  featuredItems: FeaturedItem[]
-}
-
+// eslint-disable-next-line
+import CategorySection from '@/components/ui/CategorySection'
+import { HomeProps } from 'src/typings/common.interfaces'
 const Home: NextPage<HomeProps> = (props) => {
-  const { heroContent, featuredItems } = props
+  const {
+    heroContent,
+    featuredItems,
+    categorySection,
+  } = props
   return (
     <Content>
       <>
@@ -25,6 +22,9 @@ const Home: NextPage<HomeProps> = (props) => {
         />
         <FeatureSection
           featuredItems={featuredItems}
+        />
+        <CategorySection
+          categorySection={categorySection}
         />
       </>
     </Content>
