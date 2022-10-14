@@ -17,5 +17,15 @@
       "name": "Summer Vibes",
       "imageUrl": "https://source.unsplash.com/uuBwaKIc9Kg"
     }
+  ],
+  "categorySection": [
+    {
+      "name": "Men's",
+      "imageUrl": "https://source.unsplash.com/k6aQzmIbR1s"
+    },
+    {
+      "name": "Women's",
+      "imageUrl": "https://source.unsplash.com/ZxdJFgSGQBA"
+    }
   ]
 }
