@@ -23,7 +23,9 @@ function CategoryLink({
       onMouseEnter={toggleOverlay}
       onMouseLeave={toggleOverlay}
     >
-      {showOverlay && <ItemOverlay />}
+      {showOverlay && (
+        <ItemOverlay type="category" />
+      )}
       <Image
         src={imageUrl}
         alt="Category"
