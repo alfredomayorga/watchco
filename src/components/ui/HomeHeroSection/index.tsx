@@ -1,4 +1,10 @@
 import { Box, Flex } from '@chakra-ui/react'
+import {
+  Fade,
+  ScaleFade,
+  Slide,
+  SlideFade,
+} from '@chakra-ui/react'
 import React from 'react'
 import { HomepageContent } from 'src/typings/common.types'
 import HeroImage from '../HeroImage/HeroImage'
@@ -15,19 +21,32 @@ function HomeHeroSection({
       my={'48px'}
     >
       <Box flex="1">
-        <HeroImage
-          name={heroHeading}
-          imageUrl={heroImage}
-        />
+        <Fade
+          in={true}
+          style={{ transitionDuration: '500ms' }}
+        >
+          <HeroImage
+            name={heroHeading}
+            imageUrl={heroImage}
+          />
+        </Fade>
       </Box>
       <Box
         flex="0.5"
         my="auto"
       >
-        <HeroText
-          heading={heroHeading}
-          content={heroText}
-        />
+        <SlideFade
+          in={true}
+          offsetY="20px"
+          style={{
+            transitionDuration: '1000ms',
+          }}
+        >
+          <HeroText
+            heading={heroHeading}
+            content={heroText}
+          />
+        </SlideFade>
       </Box>
     </Flex>
   )

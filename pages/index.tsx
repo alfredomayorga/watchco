@@ -1,5 +1,4 @@
 import heroData from '../db/hero-content.json'
-
 import type { NextPage } from 'next'
 import Content from '../src/components/layout/Content'
 // eslint-disable-next-line
