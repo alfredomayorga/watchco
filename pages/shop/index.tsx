@@ -1,4 +1,4 @@
-import heroData from '../db/hero-content.json'
+import heroData from '../../db/hero-content.json'
 
 // eslint-disable-next-line max-len
 import CategorySection from '@/components/ui/CategorySection'
