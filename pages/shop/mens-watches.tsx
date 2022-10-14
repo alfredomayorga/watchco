@@ -1,7 +1,21 @@
-import React from 'react'
-
-function MensPage() {
-  return <div>Men&apos;s Page</div>
+import WatchBoxList from '@/components/shared/WatchBoxList'
+import { Box } from '@chakra-ui/react'
+import { NextPage } from 'next'
+import mensWatches from '../../db/mens-watches.json'
+/* eslint-disable-next-line max-len */
+import type { CategoryProps } from '../../src/typings/common.interfaces'
+const MensPage: NextPage<CategoryProps> = (
+  props
+) => {
+  return (
+    <WatchBoxList watchBoxes={props.watchBoxes} />
+  )
 }
 
 export default MensPage
+
+export async function getStaticProps() {
+  return {
+    props: mensWatches,
+  }
+}
