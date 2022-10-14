@@ -9,7 +9,6 @@ function HeroImage({
   return (
     <>
       <Image
-        priority={true}
         data-cy="hero-image"
         src={imageUrl}
         alt={name}

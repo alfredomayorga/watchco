@@ -13,6 +13,7 @@ function CategorySection({
     <Flex
       gap={'48px'}
       mb={8}
+      data-cy="category-section"
     >
       <Box
         flex="1"
