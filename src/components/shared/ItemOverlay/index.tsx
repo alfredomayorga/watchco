@@ -5,7 +5,11 @@ import {
   Fade,
 } from '@chakra-ui/react'
 
-function ItemOverlay() {
+interface ItemOverlayProps {
+  type: string
+}
+
+function ItemOverlay({ type }: ItemOverlayProps) {
   return (
     <Flex
       h="full"
@@ -17,7 +21,9 @@ function ItemOverlay() {
       <Center w="full">
         <Fade in={true}>
           <Button colorScheme="gray">
-            Shop Now
+            {type === 'category'
+              ? 'Show Now'
+              : 'Add To Cart'}
           </Button>
         </Fade>
       </Center>

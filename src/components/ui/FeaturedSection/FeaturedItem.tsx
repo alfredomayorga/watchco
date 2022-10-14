@@ -33,7 +33,9 @@ function FeaturedItem({
         borderRadius={10}
       >
         <Center pos={'relative'}>
-          {showOverlay && <ItemOverlay />}
+          {showOverlay && (
+            <ItemOverlay type="category" />
+          )}
 
           <Image
             src={imageUrl}
