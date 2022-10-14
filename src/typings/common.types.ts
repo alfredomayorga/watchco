@@ -14,3 +14,8 @@ export type FeaturedItemType = {
   name: string
   imageUrl: string
 }
+
+export type CategorySectionType = {
+  name: string
+  imageUrl: string
+}
