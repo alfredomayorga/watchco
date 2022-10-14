@@ -3,7 +3,8 @@
     "next",
     "next/core-web-vitals",
     "eslint:recommended",
-    "fbjs"
+    "fbjs",
+    "plugin:cypress/recommended"
   ],
   "parser": "@typescript-eslint/parser",
   "globals": {
