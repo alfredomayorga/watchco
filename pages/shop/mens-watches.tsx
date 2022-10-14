@@ -1,5 +1,4 @@
 import WatchBoxList from '@/components/shared/WatchBoxList'
-import { Box } from '@chakra-ui/react'
 import { NextPage } from 'next'
 import mensWatches from '../../db/mens-watches.json'
 /* eslint-disable-next-line max-len */
