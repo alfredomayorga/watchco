@@ -2,24 +2,24 @@
 
 version: 2.1
 
-dependencies:
-  pre:
-    - rm -rf ~/.yarn
-    - npm install -g yarn
-    - yarn -v
+orbs:
+  node: circleci/node@5.0.3
 
-jobs:
-  app-build:
-    docker:
-      - image: cimg/node:16.18.0-browsers
-    steps:
-      - checkout
-      - run:
-          name: 'Running linters'
-          command: yarn lint
+# jobs:
+#   app-build:
+#     docker:
+#       - image: cimg/node:16.18.0-browsers
+#     steps:
+#       - checkout
+#       - node/install-packages:
+#           pkg-manager: yarn
+#       - run:
+#           command: yarn lint
+#           name: Run linters
 
 workflows:
-  test-flow:
+  run-npm-command:
     jobs:
-      - app-build
+      - node/run:
+          yarn-run: build
 # VS Code Extension Version: 1.0.2
